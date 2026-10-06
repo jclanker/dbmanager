@@ -1,0 +1,38 @@
+{
+  "name": "@jclanker/dbmanager",
+  "version": "1.0.0",
+  "description": "Small promise-based wrapper around better-sqlite3 with WAL mode, batched transactional statements and optional query timing logs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jclanker/dbmanager.git"
+  },
+  "author": "jclanker",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "sqlite",
+    "sqlite3",
+    "better-sqlite3",
+    "database",
+    "promise",
+    "wal"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "@types/better-sqlite3": "^9.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "ISC"
+}
